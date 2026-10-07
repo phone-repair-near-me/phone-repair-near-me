@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Phone Repair Near Me | Fast & Reliable Local Repairs</title>
+    <meta name="description" content="Looking for Phone Repair Near Me? Get professional phone, iPhone, Samsung, and Android repairs in Humble, TX with fast service and expert technicians.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f6f3ed;
+            color: #252525;
+            line-height: 1.7;
+        }
+
+        a {
+            color: inherit;
+        }
+
+        /* Header */
+        header {
+            background: #202a25;
+            color: #ffffff;
+            padding: 18px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.12);
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1180px;
+            margin: auto;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .logo span {
+            color: #d5a84f;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 28px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #d5a84f;
+        }
+
+        /* Hero */
+        .hero {
+            background:
+                linear-gradient(rgba(32,42,37,0.92), rgba(32,42,37,0.92)),
+                radial-gradient(circle at top right, #d5a84f, transparent 40%);
+            color: #ffffff;
+            padding: 105px 0 95px;
+        }
+
+        .hero-content {
+            max-width: 820px;
+        }
+
+        .hero-label {
+            color: #d5a84f;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 {
+            font-size: 54px;
+            line-height: 1.15;
+            margin-bottom: 25px;
+        }
+
+        .hero p {
+            font-size: 19px;
+            color: #e8e8e8;
+            max-width: 730px;
+            margin-bottom: 35px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #d5a84f;
+            color: #202a25;
+            padding: 14px 27px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 10px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ffffff;
+            color: #202a25;
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: #ffffff;
+            border: 1px solid #ffffff;
+        }
+
+        .btn-outline:hover {
+            background: #ffffff;
+            color: #202a25;
+        }
+
+        /* Intro */
+        .intro {
+            padding: 75px 0;
+            background: #ffffff;
+        }
+
+        .section-heading {
+            text-align: center;
+            max-width: 780px;
+            margin: 0 auto 45px;
+        }
+
+        .section-heading h2 {
+            font-size: 36px;
+            color: #202a25;
+            margin-bottom: 15px;
+        }
+
+        .section-heading p {
+            color: #666666;
+            font-size: 17px;
+        }
+
+        .intro-text {
+            max-width: 900px;
+            margin: auto;
+            font-size: 17px;
+            color: #444444;
+        }
+
+        .keyword-link {
+            color: #a8791d;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        /* Service Cards */
+        .services {
+            padding: 80px 0;
+            background: #f6f3ed;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .service-card {
+            background: #ffffff;
+            padding: 32px;
+            border-radius: 8px;
+            border: 1px solid #e4ded2;
+            transition: 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+        }
+
+        .service-icon {
+            width: 52px;
+            height: 52px;
+            background: #202a25;
+            color: #d5a84f;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        .service-card h3 {
+            font-size: 21px;
+            margin-bottom: 12px;
+            color: #202a25;
+        }
+
+        .service-card p {
+            color: #666666;
+            font-size: 15px;
+        }
+
+        /* Feature Section */
+        .feature {
+            padding: 85px 0;
+            background: #ebe6dc;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 55px;
+            align-items: center;
+        }
+
+        .feature h2 {
+            font-size: 37px;
+            line-height: 1.25;
+            color: #202a25;
+            margin-bottom: 20px;
+        }
+
+        .feature p {
+            color: #555555;
+            margin-bottom: 18px;
+        }
+
+        .benefits {
+            list-style: none;
+            margin-top: 25px;
+        }
+
+        .benefits li {
+            margin-bottom: 13px;
+            padding-left: 28px;
+            position: relative;
+            color: #333333;
+        }
+
+        .benefits li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #a8791d;
+            font-weight: bold;
+        }
+
+        .feature-box {
+            background: #202a25;
+            color: #ffffff;
+            padding: 45px;
+            border-radius: 10px;
+        }
+
+        .feature-box h3 {
+            font-size: 27px;
+            margin-bottom: 18px;
+            color: #d5a84f;
+        }
+
+        .feature-box p {
+            color: #e5e5e5;
+        }
+
+        /* Process */
+        .process {
+            padding: 80px 0;
+            background: #ffffff;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .process-card {
+            text-align: center;
+            padding: 25px;
+        }
+
+        .number {
+            width: 55px;
+            height: 55px;
+            background: #d5a84f;
+            color: #202a25;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0 auto 18px;
+        }
+
+        .process-card h3 {
+            margin-bottom: 10px;
+            color: #202a25;
+        }
+
+        .process-card p {
+            font-size: 15px;
+            color: #666666;
+        }
+
+        /* Local Section */
+        .local {
+            padding: 80px 0;
+            background: #202a25;
+            color: #ffffff;
+        }
+
+        .local-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .local h2 {
+            font-size: 38px;
+            margin-bottom: 20px;
+        }
+
+        .local p {
+            color: #dddddd;
+            margin-bottom: 18px;
+        }
+
+        .contact-box {
+            background: #ffffff;
+            color: #252525;
+            padding: 35px;
+            border-radius: 8px;
+        }
+
+        .contact-box h3 {
+            color: #202a25;
+            margin-bottom: 20px;
+            font-size: 25px;
+        }
+
+        .contact-item {
+            margin-bottom: 17px;
+        }
+
+        .contact-item strong {
+            display: block;
+            color: #202a25;
+            margin-bottom: 3px;
+        }
+
+        .contact-item a {
+            color: #8b6519;
+            text-decoration: none;
+        }
+
+        /* FAQ */
+        .faq {
+            padding: 85px 0;
+            background: #f6f3ed;
+        }
+
+        .faq-list {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .faq-item {
+            background: #ffffff;
+            padding: 25px 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #d5a84f;
+            border-radius: 5px;
+        }
+
+        .faq-item h3 {
+            color: #202a25;
+            font-size: 19px;
+            margin-bottom: 8px;
+        }
+
+        .faq-item p {
+            color: #666666;
+            font-size: 15px;
+        }
+
+        /* CTA */
+        .cta {
+            padding: 75px 0;
+            background: #d5a84f;
+            text-align: center;
+            color: #202a25;
+        }
+
+        .cta h2 {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .cta p {
+            max-width: 700px;
+            margin: 0 auto 25px;
+            font-size: 17px;
+        }
+
+        .cta .btn {
+            background: #202a25;
+            color: #ffffff;
+        }
+
+        .cta .btn:hover {
+            background: #ffffff;
+            color: #202a25;
+        }
+
+        /* Footer */
+        footer {
+            background: #151b18;
+            color: #cccccc;
+            padding: 45px 0 25px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 35px;
+        }
+
+        footer h3 {
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+
+        footer p {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        footer a {
+            color: #d5a84f;
+            text-decoration: none;
+        }
+
+        .copyright {
+            border-top: 1px solid #303834;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            nav ul {
+                gap: 15px;
+            }
+
+            .hero h1 {
+                font-size: 42px;
+            }
+
+            .service-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .process-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .feature-grid,
+            .local-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 650px) {
+            .nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .hero {
+                padding: 75px 0;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .section-heading h2,
+            .feature h2,
+            .local h2,
+            .cta h2 {
+                font-size: 30px;
+            }
+
+            .service-grid,
+            .process-grid,
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .btn {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+        <div class="logo">Phone <span>Repair</span></div>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero" id="home">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-label">Professional Mobile Device Repair</div>
+
+            <h1>Fast and Reliable Phone Repair Near You</h1>
+
+            <p>
+                Get professional help for cracked screens, weak batteries,
+                charging problems, damaged cameras, and other common phone
+                issues. Local repair services make it easier to get your
+                device working properly without unnecessary delays.
+            </p>
+
+            <a href="#contact" class="btn">Get Repair Help</a>
+            <a href="tel:+19369004620" class="btn btn-outline">Call Now</a>
+        </div>
+    </div>
+</section>
+
+<section class="intro">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Reliable Phone Repair in Humble, TX</h2>
+            <p>
+                Convenient local service for smartphones, tablets, and other
+                personal devices.
+            </p>
+        </div>
+
+        <div class="intro-text">
+            <p>
+                When your phone suddenly stops charging, the screen becomes
+                difficult to use, or the battery cannot hold a charge, finding
+                a dependable repair shop nearby can save both time and money.
+                If you are searching for
+                <a class="keyword-link" href="https://phonerepairnerds.tech/">
+                    Phone Repair Near Me
+                </a>,
+                professional local technicians can help diagnose the problem
+                and recommend the right repair.
+            </p>
+
+            <br>
+
+            <p>
+                A professional repair service can handle many common smartphone
+                problems, from cracked displays and worn batteries to charging
+                ports, cameras, speakers, and water-related issues. Having a
+                convenient repair location also means you can speak directly
+                with a technician and understand the repair before approving
+                the work.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="services" id="services">
+    <div class="container">
+
+        <div class="section-heading">
+            <h2>Phone Repair Services</h2>
+            <p>
+                Professional solutions for everyday smartphone problems and
+                damaged mobile devices.
+            </p>
+        </div>
+
+        <div class="service-grid">
+
+            <div class="service-card">
+                <div class="service-icon">▣</div>
+                <h3>Screen Repair</h3>
+                <p>
+                    Cracked glass, display problems, and unresponsive touch
+                    screens can make your phone difficult to use. Professional
+                    screen replacement can restore normal functionality.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3>Battery Replacement</h3>
+                <p>
+                    If your phone drains quickly, shuts down unexpectedly, or
+                    struggles to hold a charge, a battery replacement may help
+                    restore dependable daily performance.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">⌁</div>
+                <h3>Charging Port Repair</h3>
+                <p>
+                    Loose connections, damaged charging ports, or charging
+                    failures can prevent your phone from powering properly.
+                    Professional diagnostics can identify the underlying issue.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">◉</div>
+                <h3>Camera Repair</h3>
+                <p>
+                    Blurry images, camera errors, or damaged camera components
+                    can affect your everyday photography. Expert repair can
+                    restore your device's camera functionality.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">♫</div>
+                <h3>Speaker & Microphone</h3>
+                <p>
+                    Sound problems can affect calls, videos, music, and voice
+                    recordings. Technicians can inspect speakers and microphones
+                    to determine the cause of the issue.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">✦</div>
+                <h3>Water Damage Diagnostics</h3>
+                <p>
+                    Liquid exposure can cause immediate or delayed problems.
+                    Professional diagnostics can help determine the condition
+                    of internal components and possible repair options.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="feature">
+    <div class="container">
+        <div class="feature-grid">
+
+            <div>
+                <h2>Why Choose Professional Phone Repair?</h2>
+
+                <p>
+                    A damaged smartphone does not always need to be replaced.
+                    Many common problems can be repaired by an experienced
+                    technician, helping you keep your existing device and
+                    important data.
+                </p>
+
+                <p>
+                    Professional diagnostics also help identify the actual
+                    source of a problem instead of replacing parts unnecessarily.
+                </p>
+
+                <ul class="benefits">
+                    <li>Professional device diagnostics</li>
+                    <li>Experienced repair technicians</li>
+                    <li>Solutions for common smartphone problems</li>
+                    <li>Convenient local repair service</li>
+                    <li>Clear repair recommendations</li>
+                    <li>Support for multiple smartphone brands</li>
+                </ul>
+            </div>
+
+            <div class="feature-box">
+                <h3>Need Your Phone Fixed?</h3>
+
+                <p>
+                    Bring your device to a convenient local repair location
+                    for professional inspection. A technician can assess the
+                    problem, explain the available options, and help you decide
+                    whether repair is the right choice.
+                </p>
+
+                <br>
+
+                <p>
+                    From cracked screens and battery problems to charging and
+                    camera issues, professional repair can help restore your
+                    device without the inconvenience of buying a replacement.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="process" id="process">
+    <div class="container">
+
+        <div class="section-heading">
+            <h2>Our Simple Repair Process</h2>
+            <p>
+                A straightforward approach designed to make phone repair
+                convenient and easy to understand.
+            </p>
+        </div>
+
+        <div class="process-grid">
+
+            <div class="process-card">
+                <div class="number">1</div>
+                <h3>Bring Your Device</h3>
+                <p>
+                    Visit the repair location with your phone and explain the
+                    problem you are experiencing.
+                </p>
+            </div>
+
+            <div class="process-card">
+                <div class="number">2</div>
+                <h3>Device Diagnosis</h3>
+                <p>
+                    A technician examines the device to identify the cause of
+                    the problem.
+                </p>
+            </div>
+
+            <div class="process-card">
+                <div class="number">3</div>
+                <h3>Repair Solution</h3>
+                <p>
+                    You receive information about the recommended repair before
+                    the work is completed.
+                </p>
+            </div>
+
+            <div class="process-card">
+                <div class="number">4</div>
+                <h3>Quality Check</h3>
+                <p>
+                    The repaired device is checked to ensure the affected
+                    functions are working properly.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="local">
+    <div class="container">
+        <div class="local-grid">
+
+            <div>
+                <h2>Convenient Local Repair in Humble</h2>
+
+                <p>
+                    Located in Humble, Texas, the repair shop provides convenient
+                    access to professional phone and device repair services for
+                    customers in the surrounding area.
+                </p>
+
+                <p>
+                    Whether you have a cracked screen, charging problem,
+                    battery issue, camera fault, or another device concern,
+                    contacting a local repair technician can help you understand
+                    your options before deciding on the next step.
+                </p>
+
+                <a href="tel:+19369004620" class="btn">Call (936) 900-4620</a>
+            </div>
+
+            <div class="contact-box" id="contact">
+                <h3>Contact Information</h3>
+
+                <div class="contact-item">
+                    <strong>Phone</strong>
+                    <a href="tel:+19369004620">+1 (936) 900-4620</a>
+                </div>
+
+                <div class="contact-item">
+                    <strong>Address</strong>
+                    <span>
+                        7715 Farm to Market 1960 Bypass Rd W,
+                        Suite 103, Humble, TX 77338, USA
+                    </span>
+                </div>
+
+                <div class="contact-item">
+                    <strong>Email</strong>
+                    <a href="mailto:info@phonerepairnerds.tech">
+                        info@phonerepairnerds.tech
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <strong>Website</strong>
+                    <a href="https://phonerepairnerds.tech/">
+                        phonerepairnerds.tech
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="faq" id="faq">
+    <div class="container">
+
+        <div class="section-heading">
+            <h2>Frequently Asked Questions</h2>
+            <p>
+                Answers to common questions about finding professional phone
+                repair services.
+            </p>
+        </div>
+
+        <div class="faq-list">
+
+            <div class="faq-item">
+                <h3>What types of phone problems can be repaired?</h3>
+                <p>
+                    Common repairs include cracked screens, battery issues,
+                    charging port problems, camera faults, speaker issues,
+                    microphone problems, and certain water-related damage.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Should I repair my phone or replace it?</h3>
+                <p>
+                    The right choice depends on the device's age, condition,
+                    repair cost, and type of damage. A professional diagnosis
+                    can help you compare your repair options before making a
+                    decision.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can a phone be repaired after water damage?</h3>
+                <p>
+                    Some water-damaged devices can be restored, although the
+                    outcome depends on how much liquid entered the device and
+                    which components were affected. Professional diagnostics
+                    are recommended as soon as possible.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I prepare my phone for repair?</h3>
+                <p>
+                    If possible, back up your important data before bringing
+                    the device in. Remove accessories such as cases and be
+                    prepared to provide information needed for functional
+                    testing after the repair.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Do I need an appointment?</h3>
+                <p>
+                    You can contact the repair shop before visiting to discuss
+                    your device and confirm service availability. Walk-in
+                    service may also be available for many common repairs.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Where is the repair location?</h3>
+                <p>
+                    The repair location is at 7715 Farm to Market 1960 Bypass
+                    Rd W, Suite 103, Humble, TX 77338, USA.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <div class="container">
+        <h2>Get Your Phone Back in Working Order</h2>
+
+        <p>
+            Don't let a damaged screen, weak battery, or charging problem
+            interrupt your day. Contact a local repair professional in Humble
+            for help with your device.
+        </p>
+
+        <a href="tel:+19369004620" class="btn">Call for Repair Help</a>
+        <a href="mailto:info@phonerepairnerds.tech" class="btn">
+            Email Us
+        </a>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div>
+                <h3>Phone Repair Services</h3>
+                <p>
+                    Professional phone and device repair services in Humble,
+                    Texas for common smartphone problems and damaged devices.
+                </p>
+            </div>
+
+            <div>
+                <h3>Contact</h3>
+                <p>Phone: <a href="tel:+19369004620">+1 (936) 900-4620</a></p>
+                <p>
+                    Email:
+                    <a href="mailto:info@phonerepairnerds.tech">
+                        info@phonerepairnerds.tech
+                    </a>
+                </p>
+            </div>
+
+            <div>
+                <h3>Location</h3>
+                <p>
+                    7715 Farm to Market 1960 Bypass Rd W,
+                    Suite 103, Humble, TX 77338, USA
+                </p>
+                <p>
+                    <a href="https://phonerepairnerds.tech/">
+                        Visit Website
+                    </a>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 All Rights Reserved.
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
